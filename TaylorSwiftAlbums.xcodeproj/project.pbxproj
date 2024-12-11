@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		262DDBB12D09F68000A13843 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262DDBAE2D09F68000A13843 /* ContentView.swift */; };
+		262DDBB22D09F68000A13843 /* TaylorSwiftAlbumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262DDBAF2D09F68000A13843 /* TaylorSwiftAlbumsApp.swift */; };
+		262DDBB32D09F68000A13843 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262DDBAB2D09F68000A13843 /* Preview Assets.xcassets */; };
+		262DDBB42D09F68000A13843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262DDBAD2D09F68000A13843 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		262DDB762D0944B700A13843 /* TaylorSwiftAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorSwiftAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262DDBAB2D09F68000A13843 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		262DDBAD2D09F68000A13843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		262DDBAE2D09F68000A13843 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		262DDBAF2D09F68000A13843 /* TaylorSwiftAlbumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftAlbumsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		262DDB782D0944B700A13843 /* TaylorSwiftAlbums */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TaylorSwiftAlbums;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		262DDB732D0944B700A13843 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		262DDB6D2D0944B700A13843 = {
 			isa = PBXGroup;
 			children = (
-				262DDB782D0944B700A13843 /* TaylorSwiftAlbums */,
+				262DDBB02D09F68000A13843 /* TaylorSwiftAlbums */,
 				262DDB772D0944B700A13843 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				262DDB762D0944B700A13843 /* TaylorSwiftAlbums.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		262DDBAC2D09F68000A13843 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				262DDBAB2D09F68000A13843 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		262DDBB02D09F68000A13843 /* TaylorSwiftAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				262DDBB52D09F69800A13843 /* Views */,
+				262DDBAC2D09F68000A13843 /* Preview Content */,
+				262DDBAD2D09F68000A13843 /* Assets.xcassets */,
+			);
+			path = TaylorSwiftAlbums;
+			sourceTree = "<group>";
+		};
+		262DDBB52D09F69800A13843 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				262DDBAF2D09F68000A13843 /* TaylorSwiftAlbumsApp.swift */,
+				262DDBAE2D09F68000A13843 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				262DDB782D0944B700A13843 /* TaylorSwiftAlbums */,
 			);
 			name = TaylorSwiftAlbums;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262DDBB32D09F68000A13843 /* Preview Assets.xcassets in Resources */,
+				262DDBB42D09F68000A13843 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262DDBB12D09F68000A13843 /* ContentView.swift in Sources */,
+				262DDBB22D09F68000A13843 /* TaylorSwiftAlbumsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
