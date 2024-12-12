@@ -11,24 +11,22 @@ import SwiftUI
 struct TaylorSwiftAlbumsDetailsView: View {
     
     // MARK: Stored properties
-    let image: String
-    let albumName: String
-    let description: String
+    let providedAlbum: Album
     
     
     // MARK: Computed property
     var body: some View {
         VStack {
             HStack {
-                Image(systemName: image)
+                Image(systemName: providedAlbum.image)
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                     .tint(.black)
-                Text(albumName)
+                Text(providedAlbum.albumName)
                     .font(.system(size: 30.0, weight: .bold, design: .default))
                 Spacer()
             }
-            Text(description)
+            Text(providedAlbum.description)
                 .font(.system(size: 20.0, weight: .thin, design: .default))
         }
     }

@@ -23,6 +23,14 @@
 		262DDBB62D0A029A00A13843 /* TaylorSwiftAlbumsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftAlbumsDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		262DDBBA2D0A037300A13843 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		262DDB732D0944B700A13843 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -61,6 +69,7 @@
 		262DDBB02D09F68000A13843 /* TaylorSwiftAlbums */ = {
 			isa = PBXGroup;
 			children = (
+				262DDBBA2D0A037300A13843 /* Model */,
 				262DDBB52D09F69800A13843 /* Views */,
 				262DDBAC2D09F68000A13843 /* Preview Content */,
 				262DDBAD2D09F68000A13843 /* Assets.xcassets */,
@@ -92,6 +101,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				262DDBBA2D0A037300A13843 /* Model */,
 			);
 			name = TaylorSwiftAlbums;
 			packageProductDependencies = (
